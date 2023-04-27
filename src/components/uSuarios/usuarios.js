@@ -56,7 +56,7 @@ const TableDense = () => {
                     setTelefono('')
                     setSolicitud('')
                     setComentario('')
-
+                    setTimeout(setShowAlert2,5000);
                     setShowForm(true)
                     setShowAlert(false)
                     setShowAlert3(false)
@@ -108,14 +108,14 @@ const TableDense = () => {
                 setTelefono('')
                 setSolicitud('')
                 setComentario('')
-                setShowAlert3(false)
-                setShowForm(false)
+                setShowAlert3(true)
+                setTimeout(setShowAlert3,5000);
+                setShowForm(true)
                 setShowAlert(false)
                 setShowAlert1(false)
-                setShowAlert2(true)
+                setShowAlert2(false)
                 setShowButtonSave(true)
                 getData()
-
             })
 
         }
@@ -138,7 +138,9 @@ const TableDense = () => {
         setShowForm(true)
         setShowAlert(false)
         setShowAlert1(true)
+        setTimeout(setShowAlert1,5000);
         setShowAlert2(false)
+        setShowAlert3(false)
         setShowButtonSave(true)
         getData()
 
@@ -280,7 +282,7 @@ const TableDense = () => {
                                 <Alert severity="success" size="medium">usuario borrado </Alert>
                             }
                         </Grid>
-                        <Grid item xs={10} m="2%" sx={{ mt: "-6%" }} pl="5%" >
+                        <Grid item xs={10} m="2%" sx={{ mt: "-10%" }} pl="5%" >
                             {
                                 showAlert3 &&
                                 <Alert severity="success">Usuario Actualizado </Alert>
