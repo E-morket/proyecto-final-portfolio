@@ -47,7 +47,7 @@ const TableDense = () => {
                     solicitud: solicitud,
                     comentario: comentario,
                     
-                }).then((reponse) => {
+                }).then((response) => {
                     setNombre('')
                     setCorreo('')
                     setTelefono('')

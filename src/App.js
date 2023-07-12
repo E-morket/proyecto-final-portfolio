@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar from './components/portafolio/Navbar/Navbar';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ProtectedRoute } from './components/protected-route/protected-route';
 import Portafolio from './components/portafolio/Portafolio.js';
 import Usuarios from './components/uSuarios/usuarios.js';
@@ -36,7 +36,7 @@ const App = () => {
     <>
  <Navbar/>
  
-      <HashRouter>
+      <BrowserRouter>
 
         <Routes>
 
@@ -54,7 +54,7 @@ const App = () => {
           <Route  path='/portafolio' element={<Portafolio/>}/>
           
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
       <Portafolio className='modal'>
 
       </Portafolio>

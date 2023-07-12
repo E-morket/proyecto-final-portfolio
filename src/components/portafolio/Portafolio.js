@@ -41,7 +41,7 @@ const Portafolio = ({ childToParentData }) => {
 
                     <div >
 
-                        <Typography mt={{ xs: 4, md: 8 }} ml={10} gutterBottom variant="h2" component="div"> Esteban Arguedas Campos</Typography>
+                        <Typography mt={{ xs: 4, md: 8 }} ml={5} gutterBottom variant="h2" component="div"> Esteban Arguedas Campos</Typography>
                     </div>
 
 
