@@ -40,7 +40,7 @@ const Navbar = () => {
 
                 <MenuItem onClick={() => changeClick()} >
 
-                  <MenuItemLink href='/src/components/mensaje'>ABOUT ME</MenuItemLink>
+                  <MenuItemLink href='/src/components/mensaje/mensaje.js'>ABOUT ME</MenuItemLink>
                  
                 </MenuItem>
 
