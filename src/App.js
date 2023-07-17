@@ -49,8 +49,8 @@ const App = () => {
           </Route>
           <Route  path='/src/components/uSuarios' element={<Usuarios />}/>
           <Route  path='/src/components/tablaUsuarios' element={<TablaUsuarios />}/>
-          <Route path='/src/components/administracion/' element={<Administracion />} />
-          <Route path='/src/components/mensaje/mensaje.js' element={<Mensaje childToParentData={functionToGetchildData} />}/>
+          <Route path='/src/components/administracion' element={<Administracion />} />
+          <Route path='/src/components/mensaje' element={<Mensaje childToParentData={functionToGetchildData} />}/>
           <Route  path='/portafolio' element={<Portafolio/>}/>
           
         </Routes>
